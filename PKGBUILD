@@ -10,7 +10,7 @@ license=('Custom')
 makedepends=( 'git' 'meson')
 source=("git+https://github.com/varnamproject/varnam-fcitx5.git")
 sha256sums=('SKIP')
-depends=('fcitx5' 'fcitx5-configtool')
+depends=('fcitx5' 'fcitx5-configtool' 'govarnam' 'govarnam-schemes')
 provides=('varnam-fcitx5')
 
 pkgver() {
